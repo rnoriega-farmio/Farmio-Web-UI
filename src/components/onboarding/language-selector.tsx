@@ -27,7 +27,7 @@ export function LanguageSelector() {
 
     setIsSubmitting(true);
     localStorage.setItem("preferred-language", selectedLanguage);
-    router.push(`/onboarding/next?lang=${selectedLanguage}`);
+    router.push(`/onboarding/organization?lang=${selectedLanguage}`);
   };
 
   return (
