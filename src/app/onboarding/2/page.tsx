@@ -6,7 +6,7 @@ export const metadata = {
   description: "Configure Farmio to match your organization's needs",
 };
 
-export default function OrganizationSetupPage() {
+export default function OnboardingStep2Page() {
   // In a real app, this would come from auth/session or previous step
   const organizationName = "Your Farm";
 

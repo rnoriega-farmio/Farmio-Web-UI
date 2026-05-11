@@ -12,7 +12,7 @@ export function OrganizationSetup({ organizationName }: OrganizationSetupProps) 
 
   const handleGetStarted = () => {
     // Navigate to the next step of onboarding
-    router.push("/onboarding/details");
+    router.push("/onboarding/3");
   };
 
   return (
